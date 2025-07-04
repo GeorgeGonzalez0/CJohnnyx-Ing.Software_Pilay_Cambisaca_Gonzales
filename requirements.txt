@@ -1,0 +1,11 @@
+#Marvin Pilay, Johnny Cambisaca, George Gonzalez
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+psycopg2-binary  # <--- Añadir esta línea para PostgreSQL
+python-jose[cryptography]
+passlib[bcrypt]
+
+#instalar pip install -r requirements.txt
