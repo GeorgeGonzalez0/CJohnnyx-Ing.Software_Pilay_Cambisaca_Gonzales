@@ -4,8 +4,7 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 pydantic
-psycopg2-binary  # <--- Añadir esta línea para PostgreSQL
+psycopg2-binary  
 python-jose[cryptography]
 passlib[bcrypt]
 
-#instalar pip install -r requirements.txt
