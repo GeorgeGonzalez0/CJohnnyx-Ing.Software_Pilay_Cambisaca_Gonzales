@@ -1,7 +1,7 @@
 # CJohnnyx-Ing.Software_Pilay_Cambisaca_Gonzales
 Estudiantes: Johnny Cambisaca, Marvin Pilay, George Gonzales.
 
-##Frontend
+## Frontend
 
 Frameworks y arquitectura: Vue realizado por -> Johnny Cambisaca
 
@@ -9,7 +9,7 @@ Integración de datos y estado: Cliente HTTP, dominio, Modelos por -> Marvin Pil
 
 UX, visualización: Dashboard y graficos por -> George Gonzales
 
-##Backend
+## Backend
 Frameworks: FastAPI realizado por -> Johnny Cambisaca
 
 Base de datos: SQLite realizado por -> Marvin Pilay
