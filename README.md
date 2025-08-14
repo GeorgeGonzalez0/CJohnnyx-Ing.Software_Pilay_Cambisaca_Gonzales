@@ -2,6 +2,7 @@
 Estudiantes: Johnny Cambisaca, Marvin Pilay, George Gonzales.
 
 Frontend
+
 Frameworks y arquitectura: Vue realizado por -> Johnny Cambisaca
 
 Integración de datos y estado: Cliente HTTP, dominio, Modelos por -> Marvin Pilay
