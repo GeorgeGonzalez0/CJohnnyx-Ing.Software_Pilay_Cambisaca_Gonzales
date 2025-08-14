@@ -1,5 +1,6 @@
 # CJohnnyx-Ing.Software_Pilay_Cambisaca_Gonzales
 Estudiantes: Johnny Cambisaca, Marvin Pilay, George Gonzales.
+
 Frontend
 Frameworks y arquitectura: Vue realizado por -> Johnny Cambisaca
 
