@@ -4,15 +4,24 @@ from typing import List
 import models
 import crud, models, schemas
 from database import SessionLocal, engine, get_db
-
-# Crea las tablas en la base de datos (si no existen)
-models.Base.metadata.create_all(bind=engine)
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="API de Gestion de Citas Medicas",
     description="Backend para un sistema de citas medicas utilizando FastAPI.",
     version="1.0.0",
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["GET","POST","PUT","DELETE","OPTIONS"],
+    allow_headers=["Authorization","Content-Type"],
+)
+
+# Crea las tablas en la base de datos (si no existen)
+models.Base.metadata.create_all(bind=engine)
 
 # --- Endpoints para Pacientes ---
 @app.post("/pacientes/", response_model=schemas.Paciente, tags=["Pacientes"])
